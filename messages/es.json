@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "title": "Iniciador Next.js i18n",
+    "description": "Una plantilla inicial de Next.js con internacionalización, modo oscuro y más características"
+  },
+  "home": {
+    "title": "Plantilla Inicial Next.js i18n",
+    "features": {
+      "title": "Características",
+      "i18n": "Soporte completo de internacionalización",
+      "nextjs": "Últimas características de Next.js",
+      "typescript": "Soporte de TypeScript"
+    },
+    "demo": {
+      "title": "Sección de Demostración",
+      "description": "Esta es una sección de demostración que muestra el uso básico de next-intl y el diseño de página."
+    }
+  }
+}

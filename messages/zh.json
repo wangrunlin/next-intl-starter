@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "title": "Next.js 国际化启动模板",
+    "description": "一个包含国际化、深色模式等功能的 Next.js 启动模板"
+  },
+  "home": {
+    "title": "Next.js 国际化启动模板",
+    "features": {
+      "title": "功能特性",
+      "i18n": "完整的国际化支持",
+      "nextjs": "最新的 Next.js 特性",
+      "typescript": "TypeScript 支持"
+    },
+    "demo": {
+      "title": "演示部分",
+      "description": "这是一个展示 next-intl 和页面布局基本用法的演示部分。"
+    }
+  }
+}

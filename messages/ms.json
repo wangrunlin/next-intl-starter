@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "title": "Pemula Next.js i18n",
+    "description": "Templat pemula Next.js dengan sokongan pelbagai bahasa, mod gelap dan lebih banyak ciri"
+  },
+  "home": {
+    "title": "Templat Pemula Next.js i18n",
+    "features": {
+      "title": "Ciri-ciri",
+      "i18n": "Sokongan pelbagai bahasa sepenuhnya",
+      "nextjs": "Ciri-ciri terbaru Next.js",
+      "typescript": "Sokongan TypeScript"
+    },
+    "demo": {
+      "title": "Bahagian Demo",
+      "description": "Ini adalah bahagian demo yang menunjukkan penggunaan asas next-intl dan susun atur halaman."
+    }
+  }
+}

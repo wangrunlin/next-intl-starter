@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "title": "Next.js i18n 스타터",
+    "description": "국제화, 다크 모드 등의 기능이 포함된 Next.js 스타터 템플릿"
+  },
+  "home": {
+    "title": "Next.js i18n 스타터 템플릿",
+    "features": {
+      "title": "기능",
+      "i18n": "완전한 국제화 지원",
+      "nextjs": "최신 Next.js 기능",
+      "typescript": "TypeScript 지원"
+    },
+    "demo": {
+      "title": "데모 섹션",
+      "description": "next-intl과 페이지 레이아웃의 기본 사용법을 보여주는 데모 섹션입니다."
+    }
+  }
+}

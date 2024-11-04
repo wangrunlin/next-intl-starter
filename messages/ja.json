@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "title": "Next.js i18n スターター",
+    "description": "国際化、ダークモードなどの機能を備えた Next.js スターターテンプレート"
+  },
+  "home": {
+    "title": "Next.js i18n スターターテンプレート",
+    "features": {
+      "title": "機能",
+      "i18n": "完全な国際化サポート",
+      "nextjs": "最新の Next.js 機能",
+      "typescript": "TypeScript サポート"
+    },
+    "demo": {
+      "title": "デモセクション",
+      "description": "next-intl とページレイアウトの基本的な使用方法を紹介するデモセクションです。"
+    }
+  }
+}

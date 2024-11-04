@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "title": "Starter Next.js i18n",
+    "description": "Un modèle de démarrage Next.js avec internationalisation, mode sombre et plus de fonctionnalités"
+  },
+  "home": {
+    "title": "Modèle de Démarrage Next.js i18n",
+    "features": {
+      "title": "Fonctionnalités",
+      "i18n": "Support complet de l'internationalisation",
+      "nextjs": "Dernières fonctionnalités de Next.js",
+      "typescript": "Support TypeScript"
+    },
+    "demo": {
+      "title": "Section de Démonstration",
+      "description": "Voici une section de démonstration présentant l'utilisation basique de next-intl et la mise en page."
+    }
+  }
+}

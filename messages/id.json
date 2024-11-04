@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "title": "Starter Next.js i18n",
+    "description": "Template starter Next.js dengan internasionalisasi, mode gelap dan fitur lainnya"
+  },
+  "home": {
+    "title": "Template Starter Next.js i18n",
+    "features": {
+      "title": "Fitur-fitur",
+      "i18n": "Dukungan internasionalisasi lengkap",
+      "nextjs": "Fitur-fitur terbaru Next.js",
+      "typescript": "Dukungan TypeScript"
+    },
+    "demo": {
+      "title": "Bagian Demo",
+      "description": "Ini adalah bagian demo yang menampilkan penggunaan dasar next-intl dan tata letak halaman."
+    }
+  }
+}

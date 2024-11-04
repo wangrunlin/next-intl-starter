@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "title": "نموذج Next.js للترجمة",
+    "description": "نموذج Next.js مع دعم الترجمة والوضع المظلم والمزيد من الميزات"
+  },
+  "home": {
+    "title": "نموذج Next.js للترجمة",
+    "features": {
+      "title": "المميزات",
+      "i18n": "دعم كامل للترجمة",
+      "nextjs": "أحدث ميزات Next.js",
+      "typescript": "دعم TypeScript"
+    },
+    "demo": {
+      "title": "قسم العرض التوضيحي",
+      "description": "هذا قسم عرض توضيحي يوضح الاستخدام الأساسي لـ next-intl وتخطيط الصفحة."
+    }
+  }
+} 
