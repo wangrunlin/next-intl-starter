@@ -5,7 +5,7 @@ export default function Home() {
   const t = useTranslations("home");
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
+    <main className="min-h-screen bg-linear-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="flex justify-between items-center mb-12">
           <a
@@ -26,7 +26,7 @@ export default function Home() {
           <LanguageSwitcher />
         </div>
 
-        <h1 className="text-5xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400">
+        <h1 className="text-5xl font-bold mb-8 bg-clip-text text-transparent bg-linear-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400">
           {t("title")}
         </h1>
 
@@ -38,7 +38,7 @@ export default function Home() {
             <ul className="space-y-4">
               {["i18n", "nextjs", "typescript"].map((feature) => (
                 <li key={feature} className="flex items-center space-x-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-blue-500" />
+                  <span className="shrink-0 w-1.5 h-1.5 rounded-full bg-blue-500" />
                   <span className="text-gray-600 dark:text-gray-300">
                     {t(`features.${feature}`)}
                   </span>

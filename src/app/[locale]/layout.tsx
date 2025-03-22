@@ -3,6 +3,7 @@ import "@/app/globals.css";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Metadata } from "next";
 import { locales } from "@/i18n/config";
+import { NextIntlClientProvider } from "next-intl";
 
 // 生成静态参数
 export function generateStaticParams() {
@@ -45,8 +46,10 @@ export default async function RootLayout({
   setRequestLocale(locale);
 
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <body suppressHydrationWarning>{children}</body>
+    <html lang={locale}>
+      <body>
+        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+      </body>
     </html>
   );
 }

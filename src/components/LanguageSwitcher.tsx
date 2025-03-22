@@ -3,7 +3,7 @@
 import { usePathname, useRouter } from "next/navigation";
 import { useLocale } from "next-intl";
 import { defaultLocale, Locale, locales, localsDisplay } from "@/i18n/config";
-import { useState, useRef, KeyboardEvent } from "react";
+import { useState, useRef, KeyboardEvent, RefObject } from "react";
 import { useClickAway } from "@/hooks/useClickAway";
 
 export default function LanguageSwitcher() {
@@ -15,7 +15,7 @@ export default function LanguageSwitcher() {
   const optionRefs = useRef<(HTMLButtonElement | null)[]>([]);
 
   // 点击外部关闭下拉菜单
-  useClickAway(dropdownRef, () => setIsOpen(false));
+  useClickAway(dropdownRef as RefObject<HTMLElement>, () => setIsOpen(false));
 
   const switchLocale = (newLocale: Locale) => {
     if (newLocale === locale) return;
@@ -135,7 +135,7 @@ export default function LanguageSwitcher() {
               onClick={() => switchLocale(lang)}
               onKeyDown={(e) => handleOptionKeyDown(e, index)}
               className={`
-                w-full px-4 py-2 text-left hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:bg-gray-100 dark:focus:bg-gray-700
+                w-full px-4 py-2 text-left hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-hidden focus:bg-gray-100 dark:focus:bg-gray-700
                 ${locale === lang ? "bg-gray-50 dark:bg-gray-700" : ""}
               `}
               role="menuitem"
